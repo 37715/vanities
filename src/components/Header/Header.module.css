@@ -1,0 +1,48 @@
+   .title {
+    margin-top: 0;
+    padding-top: 0.3%;
+    font-size: 2rem;
+    text-align: left; 
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+  }
+  
+  .authButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .authButton {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 15px;
+    text-align: center;
+    transition: color 0.3s ease;
+    color: #000;
+  }
+  
+  .authButton:hover {
+    color: #72b6ff; /* Highlighted accent color */
+  }
+  
+  .separator {
+    content: "";
+    height: 20px;
+    width: 1px;
+    background-color: #ccc;
+  }
+  

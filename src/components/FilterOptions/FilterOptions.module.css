@@ -1,0 +1,41 @@
+.filterOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .filterOption {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 30px; 
+    position: relative;
+    text-align: center;
+    transition: color 0.3s ease;
+    color: #000;
+  }
+  
+  .filterOption:hover {
+    color: #72b6ff; 
+  }
+  
+  .filterOption::after {
+    content: "";
+    height: 20px;
+    width: 1px;
+    background-color: #ccc;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+
+  .filterOption:last-child::after {
+    display: none;
+  }
+  
+  .selected {
+    color: #72b6ff; 
+  }
+  
+  
